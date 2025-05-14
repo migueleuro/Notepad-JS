@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notepad‑JS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="notepad.css">
+</head>
+<body>
+  <!-- Navbar con File Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Notepad‑JS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFile" aria-controls="navbarFile" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarFile">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="fileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">File</a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="fileDropdown">
+              <li><a class="dropdown-item" href="#" id="newFile">New Note</a></li>
+              <li><a class="dropdown-item" href="#" id="openFile">Open Note</a></li>
+              <li><a class="dropdown-item" href="#" id="saveFile">Save Note</a></li>
+              <li><a class="dropdown-item" href="#" id="saveAsFile">Save As</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fine Navbar -->
+
+  <!-- Contenitore Principale -->
+  <div class="container my-4">
+    <!-- Toolbar per lo Stile -->
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <label for="fontFamily" class="form-label">Font Family</label>
+            <select id="fontFamily" class="form-select">
+              <option value="Arial, sans-serif">Arial</option>
+              <option value="'Courier New', monospace">Courier New</option>
+              <option value="'Times New Roman', serif">Times New Roman</option>
+              <option value="Verdana, sans-serif">Verdana</option>
+              <option value="'Lucida Console', monospace">Lucida Console</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="fontSize" class="form-label">Font Size</label>
+            <select id="fontSize" class="form-select">
+              <option value="12px">12</option>
+              <option value="14px" selected>14</option>
+              <option value="16px">16</option>
+              <option value="18px">18</option>
+              <option value="20px">20</option>
+              <option value="24px">24</option>
+              <option value="28px">28</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="fontColor" class="form-label">Font Color</label>
+            <input type="color" id="fontColor" class="form-control form-control-color" value="#000000" title="Choose font color">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Editor Notepad -->
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <textarea id="notepad" class="form-control notepad-textarea" placeholder="Start typing your notes here..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- Istruzioni d'Uso -->
+  <div class="container my-4">
+    <div class="card">
+      <div class="card-header bg-primary text-white">
+        <h5>Usage Instructions</h5>
+      </div>
+      <div class="card-body">
+         <p><strong>Notepad‑JS</strong> is a fully featured local note editor. Use the File menu to:</p>
+         <ul>
+            <li><strong>New Note:</strong> Clears the current note after confirmation (unsaved changes are lost).</li>
+            <li><strong>Open Note:</strong> Load a text file from your device into the editor.</li>
+            <li><strong>Save Note:</strong> Saves the current note using the existing file name; if none exists, you will be prompted.</li>
+            <li><strong>Save As:</strong> Prompts for a file name and downloads your note as a plain text file.</li>
+         </ul>
+         <p>You can also change the text style (font family, size, and color) using the toolbar above. All operations are performed locally without external APIs.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Input File Nascosto -->
+  <input type="file" id="hiddenFileInput" style="display:none" accept=".txt, .md, .html, .css, .js, .json, text/plain">
+
+  <!-- Bootstrap JS Bundle (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="notepad.js"></script>
+</body>
+</html>
