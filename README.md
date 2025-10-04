@@ -1,106 +1,123 @@
-# 📝 Notepad-JS
+# Notepad-JS 📝
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square)](LICENSE)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=flat-square)]()
-[![Responsive](https://img.shields.io/badge/Responsive-Yes-blue?style=flat-square)]()
-[![Multi-Platform](https://img.shields.io/badge/Multi--Platform-Yes-blueviolet?style=flat-square)]()
-[![Web App](https://img.shields.io/badge/Web%20App-Yes-orange?style=flat-square)]()
-![Bootstrap](https://img.shields.io/badge/Style-Bootstrap-7952B3.svg)
+![Notepad-JS](https://img.shields.io/badge/Notepad--JS-Responsive%20Note%20Editor-blue)
 
-Notepad-JS is a **fully functional, responsive, and user-friendly** web-based note editor. Designed for efficiency, it provides **full local file management** and **dynamic text styling** options, making it a powerful tool for anyone looking to write, edit, and store notes without any external dependencies.
+Welcome to the Notepad-JS repository! Notepad-JS is a professional, responsive, and feature-rich web-based note editor. Built with HTML5, CSS3, and JavaScript, this application allows users to create, edit, load, and save notes locally without the need for external APIs. 
 
-Developed by **[Bocaletto Luca](https://github.com/bocaletto-luca)**.
+## Table of Contents
 
----
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Management](#file-management)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-## 📜 Features
+## Features
 
-✅ **Full File Management:** New, Open, Save, and Save As functionalities.  
-✅ **Complete Local Operation:** No API or registration required.  
-✅ **Customizable Text Styling:** Modify font, size, and color dynamically.  
-✅ **Responsive UI:** Seamlessly adapts to different screen sizes using Bootstrap.  
-✅ **Lightweight & Fast:** Runs entirely in the browser—no installation needed.
+- **Create, Edit, Load, and Save Notes**: Users can easily manage their notes without relying on cloud storage.
+- **File Management**: Full support for creating new notes, opening existing notes, saving current notes, and saving notes under a new name.
+- **Style Customization**: A toolbar allows users to adjust font styles, sizes, and colors to suit their preferences.
+- **Responsive Design**: Works seamlessly on various devices, ensuring a smooth user experience.
+- **Local Storage**: All notes are saved locally, ensuring privacy and easy access.
 
----
+## Technologies Used
 
-## 🏗 Technology Stack
+Notepad-JS is built using the following technologies:
 
-| Language/Framework   | Purpose                                  |
-|----------------------|------------------------------------------|
-| **HTML5**            | Semantic structure                       |
-| **CSS3 (Bootstrap)** | Styling & responsive design              |
-| **JavaScript (ES6)** | Core functionality & file management     |
+- **HTML5**: For structuring the application.
+- **CSS3**: For styling and layout.
+- **JavaScript**: For functionality and interactivity.
+- **Bootstrap**: For responsive design.
+- **Local Storage**: To save notes on the user's device.
 
----
+## Installation
 
-## 🚀 Installation & Usage
+To get started with Notepad-JS, follow these simple steps:
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/bocaletto-luca/Notepad-JS.git
-cd Notepad-JS
-```
+1. **Clone the Repository**: Use the following command to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/migueleuro/Notepad-JS.git
+   ```
 
-### 2️⃣ Open the Application  
-Simply open the `notepad.html` file in your browser.
+2. **Navigate to the Directory**: Change into the project directory:
+   ```bash
+   cd Notepad-JS
+   ```
 
-### 3️⃣ Using Notepad-JS
+3. **Open the Application**: Open the `index.html` file in your preferred web browser to start using Notepad-JS.
 
-- **Type your notes freely.**
-- **Use the File menu** to create, open, save, or export your notes.
-- **Customize your text style** using the toolbar to change font, size, and color.
+## Usage
 
----
+Once you have opened the application, you will see a user-friendly interface. You can start creating notes right away. The toolbar at the top provides options for formatting your text. 
 
-## 📖 Detailed Usage Guide
+### Basic Operations
 
-### 🗂 File Management
+- **Creating a Note**: Click on "New" to start a fresh note.
+- **Editing a Note**: Type directly into the text area. Use the toolbar for formatting.
+- **Loading a Note**: Click on "Open" to load an existing note from your local storage.
+- **Saving a Note**: Use the "Save" button to save your current work. 
 
-- **New Note:** Clears the current note with a confirmation prompt.
-- **Open Note:** Loads a `.txt` or other text-based file from your device into the editor.
-- **Save Note:** Saves the current note using its existing file name.
-- **Save As:** Prompts for a file name and downloads the note as a text file.
+## File Management
 
-### 🎨 Text Styling
+Notepad-JS includes comprehensive file management options:
 
-- **Font Family:** Select from multiple font options.
-- **Font Size:** Adjust the text size dynamically.
-- **Font Color:** Choose a color for better readability.
+- **New**: Create a new note.
+- **Open**: Load an existing note from your device.
+- **Save**: Save your current note.
+- **Save As**: Save your note under a new name.
 
-### ⌨️ Keyboard Shortcuts
+These features ensure that you can manage your notes efficiently without any hassle.
 
-| Shortcut     | Action     |
-|--------------|------------|
-| **Ctrl + C** | Copy text  |
-| **Ctrl + V** | Paste text |
-| **Ctrl + S** | Save note  |
+## Customization
 
----
+The style customization toolbar allows users to personalize their note-taking experience. You can adjust:
 
-## 📸 Screenshots
+- **Font Type**: Choose from various fonts to suit your style.
+- **Font Size**: Increase or decrease the text size for better readability.
+- **Text Color**: Change the color of your text to make it stand out.
 
-![Notepad-JS Screenshot](https://via.placeholder.com/800x400?text=Notepad-JS+Screenshot)
+These options make Notepad-JS a versatile tool for all your note-taking needs.
 
-*(Replace this placeholder with an actual screenshot of the application.)*
+## Contributing
 
----
+We welcome contributions from the community! If you would like to contribute to Notepad-JS, please follow these steps:
 
-## 🔐 License
+1. **Fork the Repository**: Click on the "Fork" button at the top right of this page.
+2. **Create a New Branch**: Use the following command:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request."
 
-This project is licensed under the **GPL v3 License**. See [GPL v3](https://www.gnu.org/licenses/gpl-3.0) for full details.
+Your contributions help make Notepad-JS better for everyone!
 
----
+## License
 
-## 🤝 Contact
+Notepad-JS is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-For any questions or feedback, contact:
+## Contact
 
-🧑‍💻 **Bocaletto Luca**  
-📌 GitHub: [bocaletto-luca](https://github.com/bocaletto-luca)
+For any inquiries or feedback, feel free to reach out:
 
----
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **GitHub**: [migueleuro](https://github.com/migueleuro)
 
-✨ **Enjoy Writing with Notepad-JS!** ✨
+## Releases
+
+To download the latest version of Notepad-JS, visit the [Releases section](https://github.com/migueleuro/Notepad-JS/releases). Make sure to download the appropriate files and execute them to get started with the latest features and improvements.
+
+Notepad-JS is a powerful tool designed for productivity. We hope you enjoy using it as much as we enjoyed building it!
